@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>/*As pseudoclasses são elementos que representam o estado do conteúdo dentro das CSS
+    "visited - link visitado" "active- link no momento em que é clicado" com o HOVER você pode criar uma especie de ação quando o mouse passa em cima do conteúdo*/
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration:none;
+        }
+        a:visited{
+            color: blue;
+           
+        }
+        a:hover{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{/* pseudoELEMENTO ***DOIS PONTOS*****/
+            content:'[LINK]';
+            color: brown;
+        }
+        /*  **SELETORES PERSONALIZADOS**
+        # = id
+        . = class
+        > = children
+        : = pseudoclasse
+        ::= pseudoelemento*/
+
+
+    </style>
+</head>
+    <body>
+</a>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://music.youtube.com/" target="_blank">Exemplo 1</a></li>
+        <li><a href="#">Exemplo 2</a></li>
+        <li><a href="#">Exemplo 3</a></li>
+
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,165 @@
+@charset "UTF=8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Parisienne&display=swap'); /*Fonte inportada de um site*/
+
+@font-face {
+    font-family:'android';
+    src: url('./fonte/idroid.otf') format('opentype');
+    font-weight:normal; /* Fonte baixada, colocada aqui para ser feita uma variavel*/
+}
+
+:root{/* (: Root) é uma meneira de criar variareis dentro do CSS*/
+    --Cor0:#E69AB8;
+    --cor1:#BB6EE0;
+    --cor2:#E14EE1;
+    --cor3:#E69AB8;
+    --cor4:#f0cbf060;
+    --cor5:#5a024b;
+
+--Fonte-padrão: arial,verdana,helvetica,sans-serif;
+--Fonte-destaque:"Bebas Neue", sans-serif;
+--font-android:'android','cursive';
+}
+*{
+    margin: 0px; /* (*)Maneira de aplicar as configurações para todos */
+    padding: 0px;
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+
+body{
+    background-color:var(--cor4);
+    font-family:var(--Fonte-padrão);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+        /*MAIN INICIO MAIN INICIO MAIN INICIO MAIN INICIO MAIN INICIO*/
+
+main p{ /* NÃO EXISTE O SINAL DE ">" POIS EXISTEM OUTROS ELEMENTOS DENTRO ENTÃO NESSE CASO N PRECISA*/
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px; /*muda a posição inicial do paragrafo*/
+    line-height: 2em;/* MUDA A DISTANCIA ENTRE AS LINHAS*/
+    font-size: 1em;
+    
+}
+main strong{/* CONFIGURANDO AS PALAVRAS QUE DEFINI COMO STRONG*/
+    color: #E14EE1;
+    background-color: #812bc71c;
+    font-weight: bolder;
+}
+            /* MAIN FIM MAIN FIM MAIN FIM MAIN FIM MAIN FIM */
+header{
+    font-family: var(--Fonte-destaque);
+    background-image: linear-gradient(to top,#5a024b,#ff4de1);
+    min-height: 150px;
+    text-align: center;
+   
+       
+}
+header > h1 { 
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 3em;
+
+    
+
+    
+    
+}
+header > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+                         /* Configurações do menu*/
+nav{
+    background-color:#5a024b;
+    pad: 10px;
+    box-shadow: 0px 15px 15px black;
+    padding-bottom: 10px;
+   
+      
+}
+nav>a{
+    color: white;
+    padding: 10px;
+
+}
+nav>a:hover{
+    background-color: rgba(255, 255, 255, 0.267);
+    font-weight: bolder;
+}
+/* fim nav fim nav fim nav fim nav fim nav fim nav fim nav fim nav fim nav */
+
+main{
+    background-color: rgb(255, 250, 250);
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.527);
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+   
+}
+main >article> h1 {
+    font-family: var(--font-android);
+    color: #7c04b4;
+}
+main >article> h2 {
+    font-family: var(--font-android);
+    background-image: linear-gradient(to right,var(--cor3),transparent);
+    color: #55017c;
+    text-indent: 10px;
+}
+main img{
+    width: 100%;
+}
+main img.Pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;/* CENTRALIZA*/
+}
+
+aside{
+background-color: pink;
+padding:10px;
+border-radius: 10px;
+
+}
+aside ul{
+    columns:2;
+    list-style:inside;
+    list-style-type:'2714'  ;
+
+}
+aside h3{
+background-color: #E14EE1;
+margin:-10px -10px 0px -10px;
+color: #ffcde1;
+text-indent: 10px;
+}
+footer{
+    background-color: var(--cor5);
+    text-align: center;
+    height: 2rem;
+    padding-top: 10px;
+
+    color: white;
+}
+footer a {
+    color: rgb(235, 138, 138);
+    text-align: center;
+   
+}
+
+
+

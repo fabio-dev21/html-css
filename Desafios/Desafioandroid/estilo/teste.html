@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Validação com JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+    input {
+      padding: 8px;
+      margin-right: 10px;
+    }
+    #mensagem {
+      margin-top: 15px;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Formulário de Nome</h2>
+  
+  <input type="text" id="nome" placeholder="Digite seu nome">
+  <button onclick="validar()">Enviar</button>
+  
+  <div id="mensagem"></div>
+
+  <script>
+    function validar() {
+      const nome = document.getElementById('nome').value;
+      const mensagem = document.getElementById('mensagem');
+
+      if (nome.trim() === '') {
+        mensagem.textContent = 'Por favor, digite seu nome.';
+      } else {
+        mensagem.style.color = 'green';
+        mensagem.textContent = `Olá, ${nome}! Dados enviados com sucesso.`;
+      }
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+/*Tudo que em HTML é id em CSS é # 
+tudo que em HTMl é Class em CSS é .
+*/
+
+
+body{
+    background-color: rgb(183, 255, 165);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:rgb(22, 95, 4) ;
+   
+}
+
+h1#principal{
+    text-align: center;
+    background-color:rgb(250, 255, 249) ;
+    text-shadow: 2px 3px 5px;
+}
+h2{
+    color: rgb(33, 54, 28);
+}
+.Básico{
+    color: aqua;
+
+}
+.Intermediário{color: blue;
+
+}
+.avançado{
+    color: beige;
+
+}

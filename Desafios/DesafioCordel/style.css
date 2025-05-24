@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 *{
     margin: 0;
+    font-size: 1em;
 }
 header{
     background-color: black;
@@ -40,7 +41,7 @@ padding-top: 10vh;
 padding-bottom: 10vh;
 font-family:"Sriracha", cursive;
 font-size: 2em; 
-min-width: 300px;  
+min-width: 200px;  
 }
 section.normal{
     background-color: white;
@@ -56,7 +57,7 @@ section.imagem>p{
     background-color: rgba(0, 0, 0, 0.404);
     min-width: 250px;
     max-width: 900px;
-    padding-left: 30px;
+    padding-left:unset;
 }
 section.imagem#img01{
     background-image: url(imagens/background001.jpg);

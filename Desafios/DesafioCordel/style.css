@@ -39,7 +39,8 @@ padding-left: 30px;
 padding-top: 10vh;
 padding-bottom: 10vh;
 font-family:"Sriracha", cursive;
-font-size: 50px;   
+font-size: 2em; 
+min-width: 300px;  
 }
 section.normal{
     background-color: white;

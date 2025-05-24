@@ -44,16 +44,17 @@ min-width: 300px;
 }
 section.normal{
     background-color: white;
-    box-shadow: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 10px 10px black;
 
 }
 section.imagem{
     background-color:rgb(104, 101, 101);
     color:white;
+
 }
 section.imagem>p{
     background-color: rgba(0, 0, 0, 0.404);
-    min-width: 400px;
+    min-width: 250px;
     max-width: 900px;
     padding-left: 30px;
 }

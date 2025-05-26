@@ -23,7 +23,7 @@ header>h1{
     padding-top: 50px;
     font-variant:small-caps;
     font-family: "Passion One", sans-serif;
-    font-size: 8rem;
+    font-size: 11vw;
     
 }
 header>p{
@@ -49,7 +49,7 @@ padding-left: 30px;
 padding-top: 10vh;
 padding-bottom: 10vh;
 font-family:"Sriracha", cursive;
-font-size: 2em;
+font-size: 4vw;
 min-width: 200px;  
 }
 section.normal{
